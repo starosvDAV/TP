@@ -1,0 +1,27 @@
+# Ігнорування системних файлів
+.DS_Store               # macOS
+Thumbs.db               # Windows
+desktop.ini             # Windows
+.idea/                  # IntelliJ IDEA
+*.iml                   # IDEA project files
+
+# Ігнорування тимчасових файлів
+*.tmp                   # Temporary files
+*.log                   # Log files
+*.bak                   # Backup files
+
+# Ігнорування бінарних і збірочних файлів
+*.exe                   # Windows executable
+*.dll                   # Dynamic libraries
+*.o                     # Object files
+*.pyc                   # Compiled Python files
+*.class                 # Compiled Java files
+
+# Ігнорування директорій
+node_modules/           # Node.js modules
+dist/                   # Distribution folder
+build/                  # Build folder
+
+# Ігнорування файлів конфігурацій
+.env                    # Environment variables
+
